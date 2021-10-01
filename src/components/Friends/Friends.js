@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'reactstrap';
+// import { Row } from 'reactstrap';
 import Friend from '../Friend/Friend';
 import './Friends.css'
 

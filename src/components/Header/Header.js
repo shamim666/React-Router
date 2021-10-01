@@ -14,6 +14,7 @@ const activeStyle = {
         <nav>
             <NavLink to="/home" activeStyle={activeStyle}>Home</NavLink>
             <NavLink to="/friends" activeStyle={activeStyle}>Friends</NavLink>
+            <NavLink to="/posts" activeStyle={activeStyle}>Posts</NavLink>
             <NavLink to="/Notfound" activeStyle={activeStyle}>NotFound</NavLink>
         </nav>
 

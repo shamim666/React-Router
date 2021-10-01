@@ -6,6 +6,8 @@ import Home from './components/Home/Home';
 import Notfound from './components/Notfound/Notfound';
 import Header from './components/Header/Header';
 import FriendDetails from './components/FriendDetail/FriendDetails';
+import Posts from './components/Posts/Posts';
+import PostDetail from './components/PostDetail/PostDetail';
 
 function App() {
   return (
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path="/friend/:ID">
             <FriendDetails></FriendDetails>
+          </Route>
+          <Route path="/posts">
+            <Posts></Posts>
+          </Route>
+          <Route path="/post/:postID">
+            <PostDetail></PostDetail>
           </Route>
           <Route path="*">
             <Notfound></Notfound>
